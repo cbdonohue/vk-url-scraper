@@ -1,8 +1,6 @@
 # vk-url-scraper
 Python library to scrape data, and especially media links like videos and photos, from vk.com URLs.
 
-> This repo has been archived because it relies on a fixed git commit of the vk_api library which we can no longer publish to pypi, see [issue](https://github.com/bellingcat/vk-url-scraper/issues/66). You can still install the latest install. This archived state may change if a solution is found to publish the library to pypi again.
-
 [![PyPI version](https://badge.fury.io/py/vk-url-scraper.svg)](https://badge.fury.io/py/vk-url-scraper)
 [![PyPI download month](https://img.shields.io/pypi/dm/vk-url-scraper.svg)](https://pypi.python.org/pypi/vk-url-scraper/)
 [![Documentation Status](https://readthedocs.org/projects/vk-url-scraper/badge/?version=latest)](https://vk-url-scraper.readthedocs.io/en/latest/?badge=latest)
@@ -11,12 +9,10 @@ Python library to scrape data, and especially media links like videos and photos
 You can use it via the [command line](#command-line-usage) or as a [python library](#python-library-usage), check the **[documentation](https://vk-url-scraper.readthedocs.io/en/latest/)**.
 
 ## Installation
-You can install the most recent release from [pypi](https://pypi.org/project/vk-url-scraper/) via `pip install vk-url-scraper`.
+You can install the most recent release from [pypi](https://pypi.org/project/vk-url-scraper/) via:
 
-Currently you need to manually unsintall and re-install one dependency (as it is installed from github and not pypi):
 ```bash
-pip uninstall vk-api
-pip install git+https://github.com/python273/vk_api.git@b99dac0ec2f832a6c4b20bde49869e7229ce4742
+pip install vk-url-scraper
 ```
 
 To use the library you will need a valid username/password combination for vk.com. 
