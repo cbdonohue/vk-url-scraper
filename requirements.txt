@@ -80,7 +80,7 @@ twine==6.1.0
 typing_extensions==4.13.2
 urllib3==2.4.0
 uvicorn==0.34.2
-vk_api @ git+https://github.com/python273/vk_api.git@b99dac0ec2f832a6c4b20bde49869e7229ce4742
+vk-api==11.9.9
 watchfiles==1.0.5
 websockets==15.0.1
 yt-dlp==2025.5.3.232917.dev0
